@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>goit-markup-hw-06</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" rel="stylesheet" /> 
+    <link href="./css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+<!--Header of page-->
+    <header>
+        <div class="navigation-section container">
+            <a class="logo link" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
+            <nav class="nav-list-of-pages">
+                <ul class="list">
+                    <li class="nav-list-element">
+                        <a class="nav-list-item link current" href="./index.html">Студия</a></li>
+                    <li class="nav-list-element">
+                        <a class="nav-list-item link" href="./portfolio.html">Портфолио</a></li>
+                    <li class="nav-list-element">
+                        <a class="nav-list-item link" href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="list">
+                <li class="up-contacts-list-element">
+                    <a class="up-contacts-list-item link" href="mailto:info@devstudio.com">
+                        <svg class="up-contacts-icon" width="16" height="12">
+                            <use href="./images/spritehover.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class="up-contacts-list-element">
+                    <a class="up-contacts-list-item link" href="tel:+380961111111">
+                        <svg class="up-contacts-icon" width="10" height="16">
+                            <use href="./images/spritehover.svg#icon-smartphone"></use>
+                        </svg>
+                        +38 096 111 11 11
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!--Main content-->
+    <main>
+        <!--Main section-->
+        <section class="main-section">
+            <div class="hero">
+                <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+                <button class="section-btn" data-modal-open type="button">Заказать услугу</button>
+            </div>
+        </section>
+        <!--Features section-->
+        <section class="features-section section">
+            <div class="container">
+                <h2 class="visually-hidden">Особенности</h2>
+                    <ul class="features-list list">
+                        <li class="features-list-element">
+                            <div class="features-list-icon-wrap">
+                                <svg class="features-list-icon" width="70" height="70">
+                                    <use href="./images/spritenohover.svg#icon-antenna"></use>
+                                </svg>
+                            </div>
+                            <h3 class="features-title">Внимание к деталям</h3>
+                            <p class="features-title-dscr">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        </li>
+                        <li class="features-list-element">
+                            <div class="features-list-icon-wrap">
+                                <svg class="features-list-icon" width="70" height="70">
+                                    <use href="./images/spritenohover.svg#icon-clock"></use>
+                                </svg>
+                            </div>
+                            <h3 class="features-title">Пунктуальность</h3>
+                            <p class="features-title-dscr">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        </li>
+                        <li class="features-list-element">
+                            <div class="features-list-icon-wrap">
+                                <svg class="features-list-icon" width="70" height="70">
+                                    <use href="./images/spritenohover.svg#icon-diagram"></use>
+                                </svg>
+                            </div>
+                            <h3 class="features-title">Планирование</h3>
+                            <p class="features-title-dscr">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        </li>
+                        <li class="features-list-element">
+                            <div class="features-list-icon-wrap">
+                                <svg class="features-list-icon" width="70" height="70">
+                                    <use href="./images/spritenohover.svg#icon-astronaut"></use>
+                                </svg>
+                            </div>
+                            <h3 class="features-title">Современные технологии</h3>
+                            <p class="features-title-dscr">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+        <!--Occupations section-->
+        <section class="occupations-section section">
+            <div class="container">
+                <h2 class="secondary-title">Чем мы занимаемся</h2>
+                    <ul class="occupations-list list">
+                        <li class="occupations-list-element">
+                            <div class="occupations-list-thumb">
+                                <img src="./images/occupation1.jpg" alt="Десктопные приложения" width="370" height="294" />
+                                <div class="occupations-list-overlay">
+                                    <p class="occupations-list-text">Десктопные приложения</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="occupations-list-element">
+                            <div class="occupations-list-thumb">
+                                <img src="./images/occupation2.jpg" alt="Мобильные приложения" width="370" height="294" />
+                                <div class="occupations-list-overlay">
+                                    <p class="occupations-list-text">Мобильные приложения</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="occupations-list-element">
+                            <div class="occupations-list-thumb">
+                                <img src="./images/occupation3.jpg" alt="Дизайнерские решения" width="370" height="294" />
+                                <div class="occupations-list-overlay">
+                                    <p class="occupations-list-text">Дизайнерские решения</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+            </div>
+        </section>
+        <!--Our team section-->
+        <section class="team-section section">
+            <div class="container">
+                <h2 class="secondary-title">Наша команда</h2>
+                    <ul class="team-list list">
+                        <li class="team-list-element">
+                            <div class="team-image-tumb">
+                                <img src="./images/photo1.jpg" alt="Игорь Демьяненко" width="270" height="260" />
+                            </div>
+                            <div class="team-list-element-container">
+                                <h3 class="team-person">Игорь Демьяненко</h3>
+                                <p class="team-person-role">Product Designer</p>
+                                <ul class="list team-social-links-list">
+                                    <li class="team-social-links-element">
+                                        <a class="link team-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                                            <svg class="team-social-links-icon" width="20" height="20">
+                                                <use href="./images/spritehover.svg#icon-instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-social-links-element">
+                                        <a class="link team-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                                            <svg class="team-social-links-icon" width="20" height="20">
+                                                <use href="./images/spritehover.svg#icon-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-social-links-element">
+                                        <a class="link team-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                                            <svg class="team-social-links-icon" width="20" height="20">
+                                                <use href="./images/spritehover.svg#icon-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-social-links-element">
+                                        <a class="link team-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                                            <svg class="team-social-links-icon" width="20" height="20">
+                                                <use href="./images/spritehover.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="team-list-element">
+                            <div class="team-image-tumb">
+                                <img src="./images/photo2.jpg" alt="Ольга Репина" width="270" height="260" />
+                            </div>
+                            <div class="team-list-element-container">
+                                <h3 class="team-person">Ольга Репина</h3>
+                                <p class="team-person-role">Frontend Developer</p>
+                                <ul class="list team-social-links-list">
+                                    <li class="team-social-links-element">
+                                        <a class="link team-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                                            <svg class="team-social-links-icon" width="20" height="20">
+                                                <use href="./images/spritehover.svg#icon-instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-social-links-element">
+                                        <a class="link team-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                                            <svg class="team-social-links-icon" width="20" height="20">
+                                                <use href="./images/spritehover.svg#icon-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-social-links-element">
+                                        <a class="link team-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                                            <svg class="team-social-links-icon" width="20" height="20">
+                                                <use href="./images/spritehover.svg#icon-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-social-links-element">
+                                        <a class="link team-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                                            <svg class="team-social-links-icon" width="20" height="20">
+                                                <use href="./images/spritehover.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="team-list-element">
+                            <div class="team-image-tumb">
+                                <img src="./images/photo3.jpg" alt="Николай Тарасов" width="270" height="260" />
+                            </div>
+                            <div class="team-list-element-container">
+                                <h3 class="team-person">Николай Тарасов</h3>
+                                <p class="team-person-role">Marketing</p>
+                                <ul class="list team-social-links-list">
+                                    <li class="team-social-links-element">
+                                        <a class="link team-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                                            <svg class="team-social-links-icon" width="20" height="20">
+                                                <use href="./images/spritehover.svg#icon-instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-social-links-element">
+                                        <a class="link team-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                                            <svg class="team-social-links-icon" width="20" height="20">
+                                                <use href="./images/spritehover.svg#icon-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-social-links-element">
+                                        <a class="link team-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                                            <svg class="team-social-links-icon" width="20" height="20">
+                                                <use href="./images/spritehover.svg#icon-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-social-links-element">
+                                        <a class="link team-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                                            <svg class="team-social-links-icon" width="20" height="20">
+                                                <use href="./images/spritehover.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="team-list-element">
+                            <div class="team-image-tumb">
+                                <img src="./images/photo4.jpg" alt="Михаил Ермаков" width="270" height="260" />
+                            </div>
+                            <div class="team-list-element-container">
+                                <h3 class="team-person">Михаил Ермаков</h3>
+                                <p class="team-person-role">UI Designer</p>
+                                <ul class="list team-social-links-list">
+                                    <li class="team-social-links-element">
+                                        <a class="link team-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                                            <svg class="team-social-links-icon" width="20" height="20">
+                                                <use href="./images/spritehover.svg#icon-instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-social-links-element">
+                                        <a class="link team-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                                            <svg class="team-social-links-icon" width="20" height="20">
+                                                <use href="./images/spritehover.svg#icon-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-social-links-element">
+                                        <a class="link team-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                                            <svg class="team-social-links-icon" width="20" height="20">
+                                                <use href="./images/spritehover.svg#icon-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="team-social-links-element">
+                                        <a class="link team-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                                            <svg class="team-social-links-icon" width="20" height="20">
+                                                <use href="./images/spritehover.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+
+        <!--Clients-->
+        <section class="section">
+            <div class="container">
+                <h2 class="secondary-title">Постоянные клиенты</h2>
+                <ul class="list clients-list">
+                    <li class="clients-links-element">
+                        <a class="link clients-links-link" href="" target="_blank" rel="noopener noreferrer">
+                            <svg class="clients-links-icon" width="106" height="60">
+                                <use href="./images/spritehover.svg#icon-Logo-one"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="clients-links-element">
+                        <a class="link clients-links-link" href="" target="_blank" rel="noopener noreferrer">
+                            <svg class="clients-links-icon" width="106" height="60">
+                                <use href="./images/spritehover.svg#icon-Logo-two"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="clients-links-element">
+                        <a class="link clients-links-link" href="" target="_blank" rel="noopener noreferrer">
+                            <svg class="clients-links-icon" width="106" height="60">
+                                <use href="./images/spritehover.svg#icon-Logo-three"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="clients-links-element">
+                        <a class="link clients-links-link" href="" target="_blank" rel="noopener noreferrer">
+                            <svg class="clients-links-icon" width="106" height="60">
+                                <use href="./images/spritehover.svg#icon-Logo-four"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="clients-links-element">
+                        <a class="link clients-links-link" href="" target="_blank" rel="noopener noreferrer">
+                            <svg class="clients-links-icon" width="106" height="60">
+                                <use href="./images/spritehover.svg#icon-Logo-five"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="clients-links-element">
+                        <a class="link clients-links-link" href="" target="_blank" rel="noopener noreferrer">
+                            <svg class="clients-links-icon" width="106" height="60">
+                                <use href="./images/spritehover.svg#icon-Logo-six"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!--Hero-Modal-window-->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="hero-modal">
+            <button class="hero-modal-close-btn" data-modal-close>
+                <svg class="hero-modal-close-icon" width="11" height="11">
+                    <use href="./images/spriteform.svg#icon-close-btn"></use>
+                </svg>
+            </button>
+
+            <form class="modal-form" action="#" method="POST" autocomplete="off">
+                <h4 class="modal-title">Оставьте свои данные, мы вам перезвоним</h4>
+
+                
+                <label class="modal-label" for="name">Имя</label>
+                <div class="modal-input-thumb"> 
+                    <input class="modal-input" type="text" name="modal-input-name" id="name" placeholder=" " />
+                        <svg class="modal-icon" width="18" height="18">
+                            <use href="./images/spriteform.svg#icon-person-black"></use>
+                        </svg>
+                </div>
+                
+                
+                <label class="modal-label" for="phone">Телефон</label>
+                <div class="modal-input-thumb">  
+                    <input class="modal-input" type="tel" name="modal-input-phone" id="phone" placeholder=" " />
+                        <svg class="modal-icon" width="18" height="18">
+                            <use href="./images/spriteform.svg#icon-phone-black"></use>
+                        </svg>
+                </div>
+
+                
+                <label class="modal-label" for="mail">Почта</label>
+                <div class="modal-input-thumb">  
+                    <input class="modal-input" type="email" name="modal-input-mail" id="mail" placeholder=" " />
+                        <svg class="modal-icon" width="18" height="18">
+                            <use href="./images/spriteform.svg#icon-email-black"></use>
+                        </svg>
+                </div>
+                
+                <label class="modal-label" for="coment">Комментарий</label>
+                <textarea class="modal-input modal-coment-text-area" name="modal-text-area-text" id="coment" placeholder="Введите текст"></textarea>
+
+                <div class="checkbox-wrap">
+                    
+                    <label class="modal-label-checkbox">
+                        <input class="checkbox-place" type="checkbox" name="checkbox-value" />
+                        <span class="checkbox-icon-wrap">
+                            <svg class="checkbox-icon" width="16" height="15">
+                                <use href="./images/spriteform.svg#icon-checkbox"></use>
+                            </svg>
+                        </span>
+                        
+                        Соглашаюсь с рассылкой и принимаю 
+                        <a class="modal-link" href="#">Условия договора</a>
+                    </label>
+                </div>
+                
+                <button class="section-btn modal-submit-btn" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer-section">
+        <div class="container footer-container">
+            <div class="address-container">
+                <a class="logo link logo-down-color-marg" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
+                    <address class="address">
+                        <ul class="list">
+                            <li class="down-contacts-list-element"><a class="down-contacts-list-item link" href="https://goo.gl/maps/1cNyrUN5Ciwygz4w9" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
+                            <li class="down-contacts-list-element"><a class="down-contacts-list-item contacts-alfa link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                            <li class="down-contacts-list-element"><a class="down-contacts-list-item contacts-alfa link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                        </ul>
+                    </address>
+            </div>
+            <div>
+                <p class="footer-social-links-text">присоединяйтесь</p>
+                <ul class="list footer-social-links-list">
+                    <li class="footer-social-links-element">
+                        <a class="link footer-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                            <svg class="footer-social-links-icon" width="20" height="20">
+                                <use href="./images/spritehover.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-links-element">
+                        <a class="link footer-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                            <svg class="footer-social-links-icon" width="20" height="20">
+                                <use href="./images/spritehover.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-links-element">
+                        <a class="link footer-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                            <svg class="footer-social-links-icon" width="20" height="20">
+                                <use href="./images/spritehover.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-links-element">
+                        <a class="link footer-social-links-link" href="" target="_blank" rel="noopener noreferrer">
+                            <svg class="footer-social-links-icon" width="20" height="20">
+                                <use href="./images/spritehover.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <form class="subscribe-form" action="#" method="POST" autocomplete="off">
+                <label class="subscribe-label" for="subscribe">Подпишитесь на рассылку</label>
+                <div class="subscribe-inp-btn-thumb">
+                    <input class="subscribe-input-email" type="text" name="subscribe-input-email-text" id="subscribe" placeholder="E-mail">
+                <button class="section-btn subscribe-btn" type="submit">Подписаться
+                    <svg class="footer-social-links-icon" width="24" height="24">
+                        <use href="./images/spriteform.svg#icon-send"></use>
+                    </svg>
+                </button>
+                </div>
+            </form>
+        </div>
+    </footer>
+
+<!--Scripts-->
+<script src="./js/modal.js"></script>
+</body>
+</html>
